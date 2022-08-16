@@ -1,0 +1,30 @@
+/* main  */
+.main{
+  margin:50px;
+  box-shadow: 0px 0px 7px #111;
+  border-radius:20px;
+  height:100%;
+}
+
+/* Main containers */
+.body-main-container {
+  background-color: #202020;
+  color: #fff;
+  margin: 0;
+  padding:50px;
+  border-radius:20px;
+  text-align:center;
+}
+.mern{
+  cursor: pointer;
+  transition: all 1seg;
+}
+.mern:hover{
+  color: #fff;
+  transform: rotate(90deg)!important;
+}
+.mern::after{
+  content:"mongo "
+}
+
+

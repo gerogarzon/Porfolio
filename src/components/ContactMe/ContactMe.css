@@ -1,0 +1,76 @@
+.contactTitle {
+  font-size: 30px;
+  color: #15bb91;
+  text-align: center;
+  margin: 0;
+  padding:20px 0px 0px 0px;
+  
+}
+.contactme-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px;
+}
+.contact-items {
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+}
+.contact-left {
+  flex-grow: 1;
+  border-right: solid 1px #ffd;
+}
+@media screen and (max-width: 758px) {
+    .contact-left {
+        flex-grow: 1;
+        border-bottom: solid 1px #ffd;
+        border-right: none;
+      } 
+    
+}
+.contact-right {
+  flex-grow: 10;
+  flex-shrink: 0;
+}
+.contactme-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+}
+.contactme-form-inputs {
+  flex-grow: 1;
+  margin-bottom:10px;
+  background-color: #fff;
+  height: 20px;
+  width: 70%;
+  
+  border-radius: 5px;
+}
+.contactme-form-label{
+    margin: 5px;
+}
+.message{
+    height: 70px;
+}
+.contactme-form-button{
+    max-width: 70px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #15bb91;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contactme-form-button:hover{
+    background-color: #15aa70;
+    color: #000;
+}
+b {
+  color: #15bb91;
+}

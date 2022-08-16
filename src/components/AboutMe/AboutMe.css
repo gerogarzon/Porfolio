@@ -1,0 +1,42 @@
+/* About me flex container */
+.aboutme-container{
+display: flex;
+justify-content:center;
+color:#fff;
+border-radius: 20px;
+padding: 20px;
+}
+
+/* flex items */
+
+
+/* left section */
+.left{
+    padding: 0px 20px;
+    flex-grow: 5;
+    flex-shrink: 0;
+}
+.cvFoto{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius:999px;
+    object-fit:cover;
+}
+
+/* right section */
+.right{
+
+    flex-grow: 1;
+    padding: 0px 20px ;
+
+}
+.right-items{
+    margin:0;
+}
+.title{
+    text-align: center;
+    color:#15bb91;
+    margin-bottom: 20px;
+
+}
+
