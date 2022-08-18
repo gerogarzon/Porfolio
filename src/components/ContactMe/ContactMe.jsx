@@ -1,9 +1,55 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../Header/Header";
-import { GithubOutlined, LinkedinOutlined, FacebookOutlined } from "@ant-design/icons";
+import {
+  GithubOutlined,
+  LinkedinOutlined,
+  FacebookOutlined,
+} from "@ant-design/icons";
 import "./ContactMe.css";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const ContactMe = () => {
+  const form = useRef();
+  const ref1 = useRef(null);
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+
+  const clearInputs = () => {
+    // 👇️ clear input field value
+    ref1.current.value = "";
+    ref2.current.value = "";
+    ref3.current.value = "";
+  };
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+    await emailjs
+      .sendForm(
+        "service_qe1it9h",
+        "template_n6a2lje",
+        form.current,
+        "UibsY4UnD3uZLnpfw"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      )
+      .then(
+        Swal.fire({
+          icon: "success",
+          title: "Your email has been sent",
+          timer: 2000,
+        })
+      );
+
+    clearInputs();
+  };
+
   return (
     <>
       <div className="main">
@@ -15,6 +61,7 @@ const ContactMe = () => {
             <p className="email">
               Either by <b>email</b> or throught my <b>social media</b>.
             </p>
+            <h5 style={{ color: "#555", margin: "0px" }}>Follow me:</h5>
             <a
               className="links"
               href="https://github.com/gerogarzon"
@@ -43,38 +90,65 @@ const ContactMe = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FacebookOutlined 
+              <FacebookOutlined
                 className="footer-icons"
                 style={{ fontSize: "22px" }}
               />
             </a>
+            <h5
+              style={{
+                color: "#555",
+                margin: "0px",
+                padding: "0px 0px 5px 10px",
+              }}
+            >
+              Email me:
+            </h5>
+            <i style={{ margin: "0px", padding: "0px 0px 0px 10px" }}>
+              gerogarzon@gmail.com
+            </i>
           </div>
           <div className="contact-items contact-right">
-            <form className="contactme-form">
+            <form
+              id="myForm"
+              className="contactme-form"
+              ref={form}
+              onSubmit={sendEmail}
+            >
               <label className="contactme-form-label">Name</label>
               <input
                 className="contactme-form-inputs"
                 type="text"
                 placeholder="Enter your Name"
+                name="user_name"
+                ref={ref1}
               ></input>
               <label className="contactme-form-label">Email</label>
               <input
                 className="contactme-form-inputs"
-                type="text"
+                type="email"
                 placeholder="Enter your email"
+                name="user_email"
+                ref={ref2}
               ></input>
               <label className="contactme-form-label ">Message</label>
               <input
                 className="contactme-form-inputs message"
                 type="text"
                 placeholder="Enter your massage"
+                name="message"
+                ref={ref3}
               ></input>
-              <button className="contactme-form-button">Send</button>
+              <button
+                className="contactme-form-button"
+                type="submit"
+                value="Send"
+              >
+                Send
+              </button>
             </form>
           </div>
         </div>
-        <br></br><br></br>
-        <br></br>
       </div>
     </>
   );

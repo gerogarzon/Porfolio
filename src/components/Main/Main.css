@@ -1,7 +1,7 @@
 /* main  */
 .main{
   margin:50px;
-  box-shadow: 0px 0px 7px #111;
+  box-shadow: 0px 0px 7px #000;
   border-radius:20px;
   height:100%;
 }
@@ -23,8 +23,6 @@
   color: #fff;
   transform: rotate(90deg)!important;
 }
-.mern::after{
-  content:"mongo "
-}
+
 
 

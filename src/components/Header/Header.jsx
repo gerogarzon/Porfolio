@@ -8,23 +8,21 @@ const Header = () => {
       <div className="main-navbar-container">
         <div className="navbar-container-left">
           <a href="/" className="navbar-container-items">
-          Home
+            Home
           </a>
           <a href="/aboutme" className="navbar-container-items">
-           About me
+            About me
           </a>
           <a href="/skills" className="navbar-container-items">
-          Skills
+            Skills
           </a>
           <a href="/projects" className="navbar-container-items">
-          Projects
+            Projects
           </a>
           <a href="/contactme" className="navbar-container-items">
-          Contact me
+            Contact me
           </a>
-
         </div>
-      
       </div>
     </>
   );

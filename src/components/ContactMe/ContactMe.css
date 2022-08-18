@@ -20,6 +20,8 @@
 }
 .contact-left {
   flex-grow: 1;
+  text-align: center;
+  margin: 20px 50px;
   border-right: solid 1px #ffd;
 }
 @media screen and (max-width: 758px) {
@@ -31,8 +33,9 @@
     
 }
 .contact-right {
-  flex-grow: 10;
+  flex-grow: 1;
   flex-shrink: 0;
+  
 }
 .contactme-form {
   display: flex;
@@ -46,9 +49,9 @@
   margin-bottom:10px;
   background-color: #fff;
   height: 20px;
-  width: 70%;
-  
-  border-radius: 5px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px
 }
 .contactme-form-label{
     margin: 5px;
