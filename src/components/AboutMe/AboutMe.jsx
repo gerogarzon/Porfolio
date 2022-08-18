@@ -72,8 +72,7 @@ const AboutMe = () => {
                 Graduated in industrial engineering and after 4 years of career
                 working mostly in the areas of finance and commercial I found my
                 passion for software development. Now I'm in this software world
-                for more than a year and a half, I'm specializing as a MERN
-                (MongoDB,ExpressJS,ReactJS,NodeJS) full stack developer.
+                for more than a year and a half, I'm specializing as a MERN full stack developer (MongoDB, ExpressJS, ReactJS, NodeJS).
               </div>
             </div>
             <div className="justifyContent">
