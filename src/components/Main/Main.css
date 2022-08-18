@@ -1,9 +1,9 @@
 /* main  */
-.main{
-  margin:50px;
+.main {
+  margin: 50px;
   box-shadow: 0px 0px 7px #000;
-  border-radius:20px;
-  height:100%;
+  border-radius: 20px;
+  height: 100%;
 }
 
 /* Main containers */
@@ -11,18 +11,15 @@
   background-color: #202020;
   color: #fff;
   margin: 0;
-  padding:50px;
-  border-radius:20px;
-  text-align:center;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
 }
-.mern{
+.mern {
   cursor: pointer;
   transition: all 1seg;
 }
-.mern:hover{
+.mern:hover {
   color: #fff;
-  transform: rotate(90deg)!important;
+  transform: rotate(90deg) !important;
 }
-
-
-

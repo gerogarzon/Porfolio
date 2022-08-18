@@ -26,11 +26,10 @@
   }
 }
 .project-container-items {
-    box-shadow: 0px 0px 7px #000;
-    border-radius: 20px;
+  box-shadow: 0px 0px 7px #000;
+  border-radius: 20px;
   margin: 15px;
   max-width: 400px;
- 
 }
 .card1 {
   grid-area: "card1";
@@ -50,20 +49,19 @@
 }
 
 .bg-color {
-   border-radius: 20px;
+  border-radius: 20px;
   padding: 2px 10px;
   color: #fff;
 }
 .cardTitle {
   font-size: 25px;
   color: #fff;
-  padding-top:10px;
+  padding-top: 10px;
 }
-.linkLogo{
-    font-size:18px;  
+.linkLogo {
+  font-size: 18px;
 }
-.linkLogo:hover{
-    color: #15bb91;
-    font-size:18px;
+.linkLogo:hover {
+  color: #15bb91;
+  font-size: 18px;
 }
-

@@ -1,49 +1,45 @@
-.main-navbar-container{
-    display:flex;
-    flex-wrap: wrap;
-    border-radius: 20px;
+.main-navbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
 }
 .navbar-container-right {
-    flex-grow: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    background-color: #202020;
-    border-radius: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color: #202020;
+  border-radius: 20px;
 }
-.navbar-container-right-items{
-    color: #fff;
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 20px;
-   
+.navbar-container-right-items {
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 20px;
 }
-.navbar-container-left{
-    flex-grow: 9;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #202020;
-    border-radius: 20px;
+.navbar-container-left {
+  flex-grow: 9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #202020;
+  border-radius: 20px;
 }
-.navbar-container-items{
-    color: #fff;
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 20px;
-    
+.navbar-container-items {
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 20px;
 }
 /* .navbar-container-items::first-letter{
     color:#15bb91;
 } */
 
-.navbar-container-items:link{
-    color:#fff;
+.navbar-container-items:link {
+  color: #fff;
 }
 
-.navbar-container-items:hover{
-    text-decoration:underline;
-    color:#15bb91;
-    
- }
-
+.navbar-container-items:hover {
+  text-decoration: underline;
+  color: #15bb91;
+}
