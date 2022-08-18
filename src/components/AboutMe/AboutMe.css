@@ -7,13 +7,13 @@
   flex-wrap: wrap;
   color: #fff;
   border-radius: 20px;
-  padding: 20px;
+  padding: 40px;
 }
 
 /* flex items */
 .container-item {
-  padding: 0px 40px;
-  margin: 40px;
+ 
+  
 }
 
 /* left section */
@@ -30,7 +30,6 @@
 }
 .leftItems {
   margin: 0;
-  padding: 10px;
 }
 .justifyContent {
   display: flex;
