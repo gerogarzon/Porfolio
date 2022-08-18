@@ -68,7 +68,7 @@ const AboutMe = () => {
               <h1 className="title">About</h1>
             </div>
             <div className="justifyContent">
-              <div className="">
+              <div className="aboutText">
                 Graduated in industrial engineering and after 4 years of career
                 working mostly in the areas of finance and commercial I found my
                 passion for software development. Now I'm in this software world
@@ -77,7 +77,7 @@ const AboutMe = () => {
               </div>
             </div>
             <div className="justifyContent">
-              <div>
+              <div className="aboutText">
                 I consider myself a responsible, flexible, and proactive person,
                 passionate about learning new things focused on technology. I
                 seek to constantly challenge myself to grow both professionally

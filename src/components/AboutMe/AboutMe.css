@@ -12,8 +12,8 @@
 
 /* flex items */
 .container-item {
-  padding: 0px 20px;
-  margin: 20px;
+  padding: 0px 40px;
+  margin: 40px;
 }
 
 /* left section */
@@ -50,20 +50,18 @@
   flex-direction: column;
 
 }
-/* .right-items {
-  text-align: justify;
-  padding: 0px 35px 20px 0px;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-  */
-
 .title {
   text-align: center;
   color: #15bb91;
+}
+.aboutText{
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  flex-wrap: wrap;
+  min-width:min-content;
+  max-height: none;
+
 }
 
 div a{
