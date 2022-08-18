@@ -64,15 +64,19 @@ const AboutMe = () => {
           </div>
           {/* right side */}
           <div className="container-item aboutRight">
-            <h1 className="right-items title">About</h1>
-            <div className="right-items">
-              <div>
+            <div className="justifyContent">
+              <h1 className="title">About</h1>
+            </div>
+            <div className="justifyContent">
+              <div className="">
                 Graduated in industrial engineering and after 4 years of career
                 working mostly in the areas of finance and commercial I found my
                 passion for software development. Now I'm in this software world
                 for more than a year and a half, I'm specializing as a MERN
                 (MongoDB,ExpressJS,ReactJS,NodeJS) full stack developer.
               </div>
+            </div>
+            <div className="justifyContent">
               <div>
                 I consider myself a responsible, flexible, and proactive person,
                 passionate about learning new things focused on technology. I

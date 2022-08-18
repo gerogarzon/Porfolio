@@ -13,6 +13,7 @@
 /* flex items */
 .container-item {
   padding: 0px 20px;
+  margin: 20px;
 }
 
 /* left section */
@@ -41,13 +42,24 @@
 /* right section */
 .aboutRight {
   flex-grow: 1;
+  flex-shrink: 10;
   max-width: 700px;
+  min-width: min-content;
+  display: flex;
+  flex-direction: column;
+
 }
-.right-items {
-    text-align: justify;
+/* .right-items {
+  text-align: justify;
   padding: 0px 35px 20px 0px;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+  */
+
 .title {
   text-align: center;
   color: #15bb91;
