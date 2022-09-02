@@ -14,7 +14,7 @@ const Main = () => {
         <h3>Full Stack Developer</h3>
         <p>
           This is my portfolio website. It's a minimalist simple page
-          application created using RectJs.
+          application created using ReactJs.
         </p>
         <br></br>
         <br></br>
