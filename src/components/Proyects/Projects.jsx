@@ -21,7 +21,7 @@ const Projects = () => {
                 <br></br>
               </Card.Text>
               <Card.Link
-                href="https://github.com/gerogarzon/e-menu"
+                href="https://e-menu-rc.netlify.app"
                 target="_blank"
                 className="bg-color goto-link"
               >
@@ -40,7 +40,27 @@ const Projects = () => {
                 verification.
               </Card.Text>
               <Card.Link
-                href="https://github.com/gerogarzon/Cinefilos-1"
+                href="https://cinefilossite.netlify.app/"
+                target="_blank"
+                className="bg-color goto-link"
+              >
+                <SelectOutlined className="linkLogo" />
+              </Card.Link>
+              <br></br>
+              <br></br>
+            </Card.Body>
+          </Card>
+
+          <Card className="project-container-items card4">
+            <Card.Body className="bg-color">
+              <Card.Title className="bg-color cardTitle">Astral</Card.Title>
+              <Card.Text className="bg-color">
+                My first proyect made of pure HTML and CSS. It is an astrology
+                blog.<br></br>
+                <br></br>
+              </Card.Text>
+              <Card.Link
+                href="https://astral-blog2.netlify.app/"
                 target="_blank"
                 className="bg-color goto-link"
               >
@@ -59,26 +79,7 @@ const Projects = () => {
                 <br></br>
               </Card.Text>
               <Card.Link
-                href="https://github.com/gerogarzon/GOVA"
-                target="_blank"
-                className="bg-color goto-link"
-              >
-                <SelectOutlined className="linkLogo" />
-              </Card.Link>
-              <br></br>
-              <br></br>
-            </Card.Body>
-          </Card>
-          <Card className="project-container-items card4">
-            <Card.Body className="bg-color">
-              <Card.Title className="bg-color cardTitle">Astral</Card.Title>
-              <Card.Text className="bg-color">
-                My first proyect made of pure HTML and CSS. It is an astrology
-                blog.<br></br>
-                <br></br>
-              </Card.Text>
-              <Card.Link
-                href="https://github.com/gerogarzon/Astral"
+                href="https://gova-arquitectos.netlify.app/"
                 target="_blank"
                 className="bg-color goto-link"
               >
