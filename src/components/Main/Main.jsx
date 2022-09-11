@@ -8,7 +8,7 @@ const Main = () => {
       <Header />
       <div className="body-main-container">
         <h1 style={{ fontSize: "30px", margin: "0px" }}>Hello! I'm</h1>
-        <h1 style={{ fontSize: "90px", margin: "0px", color: "#15bb91" }}>
+        <h1 style={{ fontSize: "70px", margin: "0px", color: "#15bb91" }}>
           Gero
         </h1>
         <h2>Full Stack Developer</h2>
