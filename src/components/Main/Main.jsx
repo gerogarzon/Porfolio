@@ -7,15 +7,12 @@ const Main = () => {
     <div className="main">
       <Header />
       <div className="body-main-container">
-        <h1 style={{ fontSize: "30px", margin: "0px" }}>Hello! I am</h1>
-        <h1 style={{ fontSize: "70px", margin: "0px", color: "#15bb91" }}>
+        <h1 style={{ fontSize: "30px", margin: "0px" }}>Hello! I'm</h1>
+        <h1 style={{ fontSize: "90px", margin: "0px", color: "#15bb91" }}>
           Gero
         </h1>
-        <h3>Full Stack Developer</h3>
-        <p>
-          This is my portfolio website. It's a minimalist simple page
-          application created using ReactJs.
-        </p>
+        <h2>Full Stack Developer</h2>
+       
         <br></br>
         <br></br>
         <br></br>

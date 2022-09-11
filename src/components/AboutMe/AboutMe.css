@@ -7,14 +7,10 @@
   flex-wrap: wrap;
   color: #fff;
   border-radius: 20px;
-  padding: 40px;
+  padding: 30px;
 }
 
-/* flex items */
-.container-item {
- 
-  
-}
+
 
 /* left section */
 .aboutLeft {
@@ -25,13 +21,16 @@
 .cvFoto {
   max-width: 150px;
   max-height: 150px;
-  border-radius: 99999px;
+  border-radius: 50%;
   object-fit: cover;
+  margin:30px 10px 0px 10px;
+  padding: 5px;
 }
 .leftItems {
   margin: 0;
 }
 .justifyContent {
+  padding:5px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

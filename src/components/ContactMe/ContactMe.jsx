@@ -108,6 +108,8 @@ const ContactMe = () => {
               gerogarzon@gmail.com
             </i>
           </div>
+          <br></br>
+          <br></br>
           <div className="contact-items contact-right">
             <form
               id="myForm"

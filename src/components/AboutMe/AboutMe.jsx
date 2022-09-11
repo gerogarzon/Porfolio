@@ -15,7 +15,6 @@ const AboutMe = () => {
         <Header />
         <br></br>
         <br></br>
-        <br></br>
         {/* about me container */}
         <div className="aboutme-container">
           {/* left side */}
@@ -65,7 +64,7 @@ const AboutMe = () => {
           {/* right side */}
           <div className="container-item aboutRight">
             <div className="justifyContent">
-              <h1 className="title">About</h1>
+              <h1 className="title">About me</h1>
             </div>
             <div className="justifyContent">
               <div className="aboutText">

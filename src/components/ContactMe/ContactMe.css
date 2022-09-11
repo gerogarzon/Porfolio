@@ -28,6 +28,7 @@
     .contact-left {
         flex-grow: 1;
         border-bottom: solid 1px #ffd;
+        padding-bottom:40px;
         border-right: none;
       } 
     

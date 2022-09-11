@@ -60,6 +60,7 @@
 }
 .linkLogo {
   font-size: 18px;
+  margin-bottom:10px;
 }
 .linkLogo:hover {
   color: #15bb91;

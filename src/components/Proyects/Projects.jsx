@@ -27,8 +27,6 @@ const Projects = () => {
               >
                 <SelectOutlined className="linkLogo" />
               </Card.Link>
-              <br></br>
-              <br></br>
             </Card.Body>
           </Card>
           <Card className="project-container-items card2">
@@ -46,8 +44,7 @@ const Projects = () => {
               >
                 <SelectOutlined className="linkLogo" />
               </Card.Link>
-              <br></br>
-              <br></br>
+            
             </Card.Body>
           </Card>
 
@@ -66,8 +63,7 @@ const Projects = () => {
               >
                 <SelectOutlined className="linkLogo" />
               </Card.Link>
-              <br></br>
-              <br></br>
+             
             </Card.Body>
           </Card>
           <Card className="project-container-items card3">
@@ -85,8 +81,7 @@ const Projects = () => {
               >
                 <SelectOutlined className="linkLogo" />
               </Card.Link>
-              <br></br>
-              <br></br>
+              
             </Card.Body>
           </Card>
         </div>
