@@ -18,7 +18,7 @@ const Main = () => {
           </h1>
           <h2 className="textAlignLeft">Full Stack Developer</h2>
           <br></br>
-          <h6 className="textAlignLeft">Currently located in Buenos Aires,Argentina</h6>
+          <h6 className="textAlignLeft">Currently located in Buenos Aires, Argentina</h6>
         </div>
         <br></br>
         <br></br>
