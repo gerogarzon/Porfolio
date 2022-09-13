@@ -90,6 +90,9 @@ const AboutMe = () => {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
     </>
   );
