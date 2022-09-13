@@ -22,7 +22,7 @@ const Skills = () => {
             <img style={{minHeight:"100px"}} className="skills-image" src={css} alt="logo"></img>
           </div>
           <div className="skills-container-items skill4">
-            <img style={{minHeight:"90px"}} className="skills-image" src={js} alt="logo"></img>
+            <img style={{minHeight:"85px"}} className="skills-image" src={js} alt="logo"></img>
           </div>
           <div className="skills-container-items skill3">
             <img className="skills-image" src={react} alt="logo"></img>
