@@ -19,7 +19,7 @@ const Header = () => {
             Projects
           </a>
           <a href="/contactme" className="navbar-container-items">
-            Contact me
+            Contact 
           </a>
         </div>
       </div>
