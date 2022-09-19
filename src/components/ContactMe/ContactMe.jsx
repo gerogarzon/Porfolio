@@ -24,6 +24,15 @@ const ContactMe = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
+    if (e.target.user_name.value === "" || e.target.user_email.value ==="" || e.target.massage.value===""){
+      Swal.fire(
+        {
+          icon: "error",
+          title: "No puede haber campos vacios",
+          timer: 1500,
+        })
+        return
+    }
     await emailjs
       .sendForm(
         "service_qe1it9h",
