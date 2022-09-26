@@ -68,14 +68,12 @@ const Projects = () => {
           </Card>
           <Card className="project-container-items card3">
             <Card.Body className="bg-color">
-              <Card.Title className="bg-color cardTitle">Gova</Card.Title>
+              <Card.Title className="bg-color cardTitle">MoviesList</Card.Title>
               <Card.Text className="bg-color">
-                Landing page for an architecture firm using react.<br></br>
-                <br></br>
-                <br></br>
+              Movie search engine consuming the TMDB api.  It has functions of login, search engine, added to favorites among others.
               </Card.Text>
               <Card.Link
-                href="https://gova-arquitectos.netlify.app/"
+                href="https://discover-movies-tmbd.netlify.app/"
                 target="_blank"
                 className="bg-color goto-link"
               >
