@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutMe.css";
 import Header from "../Header/Header";
 import gero from "../../resources/gero.jpg";
+import CV from "../../resources/cv.pdf";
 import {
   GithubOutlined,
   LinkedinOutlined,
@@ -60,6 +61,9 @@ const AboutMe = () => {
                 />
               </a>
             </div>
+            <div className="justifyContent">
+            <a href={CV} className="cv" download="Garzon,Geronimo-CV.pdf">Download CV</a>
+            </div>
           </div>
           {/* right side */}
           <div className="container-item aboutRight">
@@ -86,8 +90,6 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <br></br>
-        <br></br>
         <br></br>
         <br></br>
         <br></br>
