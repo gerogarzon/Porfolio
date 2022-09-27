@@ -24,12 +24,12 @@ const ContactMe = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
-    
+
     if (e.currentTarget.user_name.value === "" || e.currentTarget.user_email.value === "" || e.currentTarget.message.value === ""){
       Swal.fire(
         {
           icon: "error",
-          title: "No puede haber campos vacios",
+          title: "No empty entries allowed",
           timer: 1500,
         })
         return
