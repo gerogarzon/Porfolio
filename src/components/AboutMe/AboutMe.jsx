@@ -26,7 +26,7 @@ const AboutMe = () => {
             <div className="justifyContent">
               <h3 className="leftItems">Geronimo Garzon</h3>
             </div>
-            <div className="justifyContent">
+            {/* <div className="justifyContent">
               <a
                 className="links leftItems"
                 href="https://github.com/gerogarzon"
@@ -60,7 +60,7 @@ const AboutMe = () => {
                   style={{ fontSize: "22px" }}
                 />
               </a>
-            </div>
+            </div> */}
             <div className="justifyContent">
             <a href={CV} className="cv" download="Garzon,Geronimo-CV.pdf">Download CV</a>
             </div>

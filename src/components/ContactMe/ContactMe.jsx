@@ -3,7 +3,6 @@ import Header from "../Header/Header";
 import {
   GithubOutlined,
   LinkedinOutlined,
-  FacebookOutlined,
 } from "@ant-design/icons";
 import "./ContactMe.css";
 import emailjs from "@emailjs/browser";
@@ -80,7 +79,7 @@ const ContactMe = () => {
             >
               <GithubOutlined
                 className="footer-icons"
-                style={{ fontSize: "22px" }}
+                style={{ fontSize: "27px" }}
               />
             </a>
             <a
@@ -91,18 +90,7 @@ const ContactMe = () => {
             >
               <LinkedinOutlined
                 className="footer-icons"
-                style={{ fontSize: "22px" }}
-              />
-            </a>
-            <a
-              className="links"
-              href="https://www.facebook.com/geronimo.garzon"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FacebookOutlined
-                className="footer-icons"
-                style={{ fontSize: "22px" }}
+                style={{ fontSize: "27px" }}
               />
             </a>
             <h5
